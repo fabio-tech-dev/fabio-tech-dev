@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7e22ce&height=200&section=header&text=Fábio%20Matheus&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20em%20Formação&descAlignY=51&descAlign=62"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0b0914,2b2245,7e22ce&height=250&section=header&text=Fábio%20Matheus&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%3C%20Desenvolvedor%20Full%20Stack%20em%20Formação%20%2F%3E&descAlignY=55&descSize=22"/>
 </div>
 
 ### Olá! Eu sou o Fábio Matheus 👋
@@ -29,7 +29,7 @@ Sou um estudante dedicado e apaixonado por tecnologia. Atualmente, estou no 3º 
 
 #### 📊 Minhas Estatísticas
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabio-tech-dev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabio-tech-dev&show_icons=true&theme=tokyonight&include_all_commits=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabio-tech-dev&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
