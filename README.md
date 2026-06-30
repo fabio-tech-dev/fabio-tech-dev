@@ -27,14 +27,6 @@ Sou um estudante dedicado e apaixonado por tecnologia. Atualmente, estou no 3º 
 
 ---
 
-#### 📊 Minhas Estatísticas
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fabio-tech-dev&show_icons=true&theme=tokyonight"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabio-tech-dev&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
----
-
 #### 📫 Como me encontrar
 <div style="display: inline-block">
   <a href="mailto:matheusfabio814@gmail.com" target="_blank">
