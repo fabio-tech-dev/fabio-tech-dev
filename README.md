@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7e22ce&height=200&section=header&text=Fábio%20Matheus&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20em%20Formação&descAlignY=51&descAlign=62"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0ea5e9&height=200&section=header&text=Fábio%20Matheus&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20Full%20Stack%20em%20Formação&descAlignY=51&descAlign=62"/>
 </div>
 
 ### Olá! Eu sou o Fábio Matheus 👋
@@ -29,8 +29,8 @@ Sou um estudante dedicado e apaixonado por tecnologia. Atualmente, estou no 3º 
 
 #### 📊 Minhas Estatísticas
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MrZoreiaSeka&show_icons=true&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrZoreiaSeka&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 ---
