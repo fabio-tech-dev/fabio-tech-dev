@@ -22,7 +22,7 @@ Sou um estudante dedicado e apaixonado por tecnologia. Atualmente, estou no 3º 
 #### 🚀 O que estou fazendo
 * 🎓 Cursando Análise e Desenvolvimento de Sistemas (Una Bom Despacho).
 * 📚 Aprimorando habilidades práticas em Front-end e Back-end com as formações da Alura.
-* 🛠️ Desenvolvendo projetos focados em regras de negócio e usabilidade, como o **AssetPulse** (Sistema SaaS Multi-Tenant de Gestão de Inventário).
+* 🛠️ Desenvolvendo projetos focados em regras de negócio e usabilidade.
 * 🤝 Focado em expandir minhas *soft skills*: trabalho em equipe, proatividade e facilidade de adaptação.
 
 ---
