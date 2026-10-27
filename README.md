@@ -159,7 +159,12 @@
       <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL">📂 Repositório</a><br />
       <a href="https://oreiatechsite.vercel.app">🔗 Demo</a>
     </td>
-    <td width="33%"></td>
+    <td align="center" valign="top" width="33%">
+      <b>AssetPulse</b><br />
+      <sub>SaaS multi-tenant para gestão de inventário de TI com assistente de IA.</sub><br /><br />
+      <code>Node.js • Express • MySQL • Gemini AI</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/AssetPulse">📂 Repositório</a>
+    </td>
   </tr>
 </table>
 </div>
