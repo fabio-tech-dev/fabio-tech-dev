@@ -117,40 +117,49 @@
 <br />
 
 <!-- 9. FEATURED PROJECTS -->
-<!--
-  ✏️ EDITE AQUI: para cada projeto troque
-     - PROJECT_NAME_X          → nome do projeto
-     - "Descrição curta..."    → 1 ou 2 linhas sobre o que ele faz
-     - "Tecnologias"           → ex.: HTML • CSS • JavaScript
-     - link do repositório     → github.com/fabio-tech-dev/NOME-DO-REPO
-     - link da demonstração    → URL do deploy (GitHub Pages, Vercel, etc.)
--->
 <h2 align="center">🚀 Featured Projects</h2>
 
 <div align="center">
 <table>
   <tr>
     <td align="center" valign="top" width="33%">
-      <b>PROJECT_NAME_1</b><br />
-      <sub>Descrição curta do projeto.</sub><br /><br />
-      <code>Tecnologias</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_1">📂 Repositório</a><br />
-      <a href="https://LINK_DA_DEMO_1">🔗 Demo</a>
+      <b>Smash Fire</b><br />
+      <sub>Cardápio digital responsivo para hamburgueria.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/Smash-Fire">📂 Repositório</a><br />
+      <a href="https://smash-fire.vercel.app">🔗 Demo</a>
     </td>
     <td align="center" valign="top" width="33%">
-      <b>PROJECT_NAME_2</b><br />
-      <sub>Descrição curta do projeto.</sub><br /><br />
-      <code>Tecnologias</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_2">📂 Repositório</a><br />
-      <a href="https://LINK_DA_DEMO_2">🔗 Demo</a>
+      <b>Barbearia 014</b><br />
+      <sub>Landing page para barbearia com serviços e equipe.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/Barbearia-014">📂 Repositório</a><br />
+      <a href="https://barbearia014.vercel.app">🔗 Demo</a>
     </td>
     <td align="center" valign="top" width="33%">
-      <b>PROJECT_NAME_3</b><br />
-      <sub>Descrição curta do projeto.</sub><br /><br />
-      <code>Tecnologias</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_3">📂 Repositório</a><br />
-      <a href="https://LINK_DA_DEMO_3">🔗 Demo</a>
+      <b>Filipe Cell</b><br />
+      <sub>Landing page para loja de celulares, focada em conversão.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/FilipeCel">📂 Repositório</a><br />
+      <a href="https://filipe-cel.vercel.app">🔗 Demo</a>
     </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>Academia Corpo em Movimento</b><br />
+      <sub>Landing page responsiva para academia fitness.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento">📂 Repositório</a><br />
+      <a href="https://academia-corpo-e-movimento.vercel.app">🔗 Demo</a>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>Oreia Tech</b><br />
+      <sub>Site oficial para apresentar serviços de tecnologia.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL">📂 Repositório</a><br />
+      <a href="https://oreiatechsite.vercel.app">🔗 Demo</a>
+    </td>
+    <td width="33%"></td>
   </tr>
 </table>
 </div>
