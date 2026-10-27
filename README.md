@@ -127,21 +127,21 @@
       <sub>Cardápio digital responsivo para hamburgueria.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/Smash-Fire">📂 Repositório</a><br />
-      <a href="https://smash-fire.vercel.app">🔗 Demo</a>
+      <a href="https://smash-fire.vercel.app">🔗 Link</a>
     </td>
     <td align="center" valign="top" width="33%">
       <b>Barbearia 014</b><br />
       <sub>Landing page para barbearia com serviços e equipe.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/Barbearia-014">📂 Repositório</a><br />
-      <a href="https://barbearia014.vercel.app">🔗 Demo</a>
+      <a href="https://barbearia014.vercel.app">🔗 Link</a>
     </td>
     <td align="center" valign="top" width="33%">
       <b>Filipe Cell</b><br />
       <sub>Landing page para loja de celulares, focada em conversão.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/FilipeCel">📂 Repositório</a><br />
-      <a href="https://filipe-cel.vercel.app">🔗 Demo</a>
+      <a href="https://filipe-cel.vercel.app">🔗 Link</a>
     </td>
   </tr>
   <tr>
@@ -150,21 +150,32 @@
       <sub>Landing page responsiva para academia fitness.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento">📂 Repositório</a><br />
-      <a href="https://academia-corpo-e-movimento.vercel.app">🔗 Demo</a>
+      <a href="https://academia-corpo-e-movimento.vercel.app">🔗 Link</a>
     </td>
     <td align="center" valign="top" width="33%">
       <b>Oreia Tech</b><br />
       <sub>Site oficial para apresentar serviços de tecnologia.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL">📂 Repositório</a><br />
-      <a href="https://oreiatechsite.vercel.app">🔗 Demo</a>
+      <a href="https://oreiatechsite.vercel.app">🔗 Link</a>
     </td>
     <td align="center" valign="top" width="33%">
       <b>AssetPulse</b><br />
       <sub>SaaS multi-tenant para gestão de inventário de TI com assistente de IA.</sub><br /><br />
       <code>Node.js • Express • MySQL • Gemini AI</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/AssetPulse">📂 Repositório</a>
+      <a href="https://github.com/fabio-tech-dev/AssetPulse">📂 Repositório</a><br />
+      <a href="https://asset-pulse-npk9.vercel.app/login.html">🔗 Link</a>
     </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>Portfólio Profissional</b><br />
+      <sub>Meu portfólio de desenvolvimento e projetos.</sub><br /><br />
+      <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://portifolio-fabio-six.vercel.app">🔗 Link</a>
+    </td>
+    <td width="33%"></td>
+    <td width="33%"></td>
   </tr>
 </table>
 </div>
