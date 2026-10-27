@@ -141,7 +141,7 @@
       <sub>Landing page para loja de celulares, focada em conversão.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
       <a href="https://github.com/fabio-tech-dev/FilipeCel">📂 Repositório</a><br />
-      <a href="https://filipe-cel.vercel.app">🔗 Link</a>
+      <a href="https://filipecell-celulares.vercel.app">🔗 Link</a>
     </td>
   </tr>
   <tr>
