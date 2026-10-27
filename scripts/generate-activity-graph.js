@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Gera dist/activity-signal.svg: gráfico "NETWORK ACTIVITY // CONTRIBUTION SIGNAL"
+ * Gera dist/activity-signal.svg: gráfico "ATIVIDADE NO GITHUB // CONTRIBUTION SIGNAL"
  * com os dados REAIS de contribuições do GitHub (últimos 12 meses, soma semanal).
  *
  * Uso (GitHub Actions):  GITHUB_TOKEN=... GITHUB_OWNER=usuario node scripts/generate-activity-graph.js
@@ -67,7 +67,7 @@ function build(cal) {
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="t d">
-<title id="t">Network activity — contribution signal</title>
+<title id="t">Atividade no GitHub — contribuições</title>
 <desc id="d">Gráfico de contribuições semanais do GitHub nos últimos 12 meses. Total: ${cal.totalContributions}.</desc>
 <defs>
 <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset=".5" stop-color="#00FFFF"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient>
@@ -88,10 +88,10 @@ text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberat
 <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="6" fill="#050810"/>
 <g clip-path="url(#clip)">
 <rect x="1" y="1" width="${W - 2}" height="38" fill="#07101F"/><line x1="1" y1="39" x2="${W - 1}" y2="39" stroke="#0EA5E9" stroke-opacity=".4"/>
-<text x="20" y="25" class="c" style="font-weight:600;letter-spacing:1.5px;font-size:14px">NETWORK ACTIVITY</text>
-<circle class="dot" cx="${W - 150}" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="${W - 140}" y="25" class="g" style="letter-spacing:1px">DATA STREAM</text>
-<text x="20" y="58" class="k" style="font-size:11px;letter-spacing:1px">SOURCE : GITHUB  //  SYS://CONTRIBUTION</text>
-<text x="${W - 20}" y="58" text-anchor="end" class="u" style="font-size:11px;letter-spacing:1px">TOTAL 12M : ${cal.totalContributions}</text>
+<text x="20" y="25" class="c" style="font-weight:600;letter-spacing:1.5px;font-size:14px">ATIVIDADE NO GITHUB</text>
+<circle class="dot" cx="${W - 150}" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="${W - 140}" y="25" class="g" style="letter-spacing:1px">FLUXO DE DADOS</text>
+<text x="20" y="58" class="k" style="font-size:11px;letter-spacing:1px">ORIGEM: GITHUB  //  SYS://CONTRIBUTION</text>
+<text x="${W - 20}" y="58" text-anchor="end" class="u" style="font-size:11px;letter-spacing:1px">TOTAL 12 MESES: ${cal.totalContributions}</text>
 ${grid}
 <text x="${L - 8}" y="${B + 4}" text-anchor="end" class="k" style="font-size:10px">0</text>
 <text x="${L - 8}" y="${T + 4}" text-anchor="end" class="k" style="font-size:10px">${max}</text>
