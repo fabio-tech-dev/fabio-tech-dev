@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" width="560" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Terminal — Fábio Matheus</title>
+  <desc id="d">Terminal animado com os comandos whoami, education, objective e status.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00BFFF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <style>
+      text { font-family: 'Fira Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; }
+      .u { fill: #00FFFF; }
+      .p { fill: #0EA5E9; }
+      .c { fill: #FFFFFF; }
+      .m { fill: #8B5CF6; }
+      .o { fill: #C9D6E8; }
+      .h { fill: #7C8BA3; font-size: 12px; }
+      .l { opacity: 0; animation: show 0.25s ease-out forwards; }
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+      .cur { fill: #00FFFF; animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .l { opacity: 1; animation: none; }
+        .cur { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- Janela -->
+  <rect x="1" y="1" width="558" height="498" rx="12" fill="#07101f" stroke="url(#g)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="558" height="38" rx="12" fill="#0a0f1c"/>
+  <rect x="1" y="26" width="558" height="13" fill="#0a0f1c"/>
+  <line x1="1" y1="39" x2="559" y2="39" stroke="#0EA5E9" stroke-opacity="0.35"/>
+  <circle cx="22" cy="20" r="5.5" fill="#00FFFF"/>
+  <circle cx="42" cy="20" r="5.5" fill="#0EA5E9"/>
+  <circle cx="62" cy="20" r="5.5" fill="#8B5CF6"/>
+  <text x="280" y="24" text-anchor="middle" class="h">fabio@github: ~</text>
+
+  <!-- whoami -->
+  <g class="l" style="animation-delay:0.4s"><text x="24" y="70" xml:space="preserve"><tspan class="u">fabio@github</tspan><tspan class="p">:~$ </tspan><tspan class="c">whoami</tspan></text></g>
+  <g class="l" style="animation-delay:0.7s"><text x="24" y="92" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Fábio Matheus</tspan></text></g>
+  <g class="l" style="animation-delay:1.0s"><text x="24" y="114" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Estudante de Análise e Desenvolvimento de Sistemas</tspan></text></g>
+  <g class="l" style="animation-delay:1.3s"><text x="24" y="136" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Desenvolvedor Full Stack em Formação</tspan></text></g>
+
+  <!-- education -->
+  <g class="l" style="animation-delay:1.9s"><text x="24" y="180" xml:space="preserve"><tspan class="u">fabio@github</tspan><tspan class="p">:~$ </tspan><tspan class="c">education</tspan></text></g>
+  <g class="l" style="animation-delay:2.2s"><text x="24" y="202" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> ADS — Una Bom Despacho</tspan></text></g>
+  <g class="l" style="animation-delay:2.5s"><text x="24" y="224" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> 3º período</tspan></text></g>
+
+  <!-- objective -->
+  <g class="l" style="animation-delay:3.1s"><text x="24" y="268" xml:space="preserve"><tspan class="u">fabio@github</tspan><tspan class="p">:~$ </tspan><tspan class="c">objective</tspan></text></g>
+  <g class="l" style="animation-delay:3.4s"><text x="24" y="290" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Primeira oportunidade em tecnologia</tspan></text></g>
+  <g class="l" style="animation-delay:3.7s"><text x="24" y="312" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Estágio / Desenvolvedor Júnior</tspan></text></g>
+
+  <!-- status -->
+  <g class="l" style="animation-delay:4.3s"><text x="24" y="356" xml:space="preserve"><tspan class="u">fabio@github</tspan><tspan class="p">:~$ </tspan><tspan class="c">status</tspan></text></g>
+  <g class="l" style="animation-delay:4.6s"><text x="24" y="378" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Estudando...</tspan></text></g>
+  <g class="l" style="animation-delay:4.9s"><text x="24" y="400" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Programando...</tspan></text></g>
+  <g class="l" style="animation-delay:5.2s"><text x="24" y="422" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Construindo projetos...</tspan></text></g>
+  <g class="l" style="animation-delay:5.5s"><text x="24" y="444" xml:space="preserve"><tspan class="m">&gt;</tspan><tspan class="o"> Evoluindo...</tspan></text></g>
+
+  <!-- prompt final com cursor piscando -->
+  <g class="l" style="animation-delay:6.1s">
+    <text x="24" y="488" xml:space="preserve"><tspan class="u">fabio@github</tspan><tspan class="p">:~$ </tspan></text>
+    <rect class="cur" x="168" y="475" width="9" height="16"/>
+  </g>
+</svg>
