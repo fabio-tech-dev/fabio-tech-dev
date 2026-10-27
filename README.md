@@ -5,7 +5,7 @@
   ║  ✏️  O QUE EDITAR (procure por "EDITE" neste arquivo):          ║
   ║   1. Username: usei "fabio-tech-dev". Se o seu for outro,      ║
   ║      substitua TODAS as ocorrências (Ctrl+H / Ctrl+F).         ║
-  ║   2. Project Database: troque os PROJECT_NAME_X e links.       ║
+  ║   2. Project Database: atualize os projetos e links.           ║
   ║                                                                ║
   ║  O repositório precisa se chamar igual ao seu username         ║
   ║  (ex.: fabio-tech-dev/fabio-tech-dev) e ser público.           ║
@@ -17,7 +17,7 @@
 <!-- 1. HEADER -->
 <img src="https://capsule-render.vercel.app/api?type=rect&height=210&color=0:030712,50:07101F,100:030712&text=F%C3%81BIO%20MATHEUS&fontColor=00BFFF&fontSize=58&fontAlignY=42&desc=FULL%20STACK%20DEVELOPER%20%2F%2F%20IN%20TRAINING&descColor=7C8BA3&descSize=18&descAlignY=64&stroke=0EA5E9&strokeWidth=1&animation=fadeIn" width="100%" alt="Fábio Matheus — Full Stack Developer in Training" />
 
-<sub><code>ADS &bull; UNA BOM DESPACHO</code></sub>
+<sub>ADS &bull; UNA BOM DESPACHO</sub>
 
 <!-- 2. SYSTEM BOOT (typing) -->
 <a href="https://github.com/fabio-tech-dev">
@@ -29,7 +29,7 @@
 <br />
 
 <!-- 3. TERMINAL -->
-<h2 align="center"><code>[ SYSTEM PROFILE ]</code></h2>
+<p align="center"><img src="assets/title-system-profile.svg" width="600" alt="SYSTEM PROFILE" /></p>
 
 <div align="center">
   <img src="assets/terminal.svg" width="600" alt="FM.DEV System Console: whoami, education, stack, mission e status do Fábio Matheus" />
@@ -38,97 +38,40 @@
 <br />
 
 <!-- 4. SYSTEM STATUS -->
-<h2 align="center"><code>[ SYSTEM STATUS ]</code></h2>
+<p align="center"><img src="assets/title-system-status.svg" width="600" alt="SYSTEM STATUS" /></p>
 
-<div align="center">
+<p align="center"><img src="assets/system-status.svg" width="600" alt="System status: usuário, curso, semestre, foco, aprendizado, missão e status dos módulos" /></p>
 
-```text
-╭─[ SYS // STATUS ]────────────────────────────╮
-│                                              │
-│  USER        FÁBIO MATHEUS                   │
-│  STATUS      ● ONLINE                        │
-│  ROLE        STUDENT                         │
-│  COURSE      ADS // UNA BOM DESPACHO         │
-│  SEMESTER    3 / 5                           │
-│  FOCUS       FULL STACK                      │
-│  LEARNING    JS // PY // MYSQL               │
-│  MISSION     FIRST TECH OPPORTUNITY          │
-│                                              │
-├─[ NODE STATUS ]──────────────────────────────┤
-│                                              │
-│  FRONTEND    [ ACTIVE   ]                    │
-│  BACKEND     [ LEARNING ]                    │
-│  DATABASE    [ LEARNING ]                    │
-│  PROJECTS    [ BUILDING ]                    │
-│                                              │
-╰──────────────────────────────────────────────╯
-```
-
-</div>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:0EA5E9,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 5. TECHNOLOGY MODULES -->
-<h2 align="center"><code>[ TECH STACK // MODULES ]</code></h2>
+<p align="center"><img src="assets/title-tech-stack.svg" width="600" alt="TECH STACK // MODULES" /></p>
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <code>╭─ FRONTEND_01 ─╮</code><br />
-      <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML5, CSS3 e JavaScript" /><br />
-      <code>╰───────────────╯</code>
-    </td>
-    <td align="center" width="50%">
-      <code>╭─ PROGRAMMING_02 ─╮</code><br />
-      <img src="https://skillicons.dev/icons?i=js,python&theme=dark" alt="JavaScript e Python" /><br />
-      <code>╰──────────────────╯</code>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <code>╭─ DATABASE_03 ─╮</code><br />
-      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL" /><br />
-      <code>╰───────────────╯</code>
-    </td>
-    <td align="center">
-      <code>╭─ ENVIRONMENT_04 ─╮</code><br />
-      <img src="https://skillicons.dev/icons?i=github,vscode&theme=dark" alt="GitHub e VS Code" /><br />
-      <code>╰──────────────────╯</code>
-    </td>
-  </tr>
-</table>
+  <img src="assets/module-01.svg" width="600" alt="Módulo FRONTEND_01" /><br />
+  <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML5, CSS3 e JavaScript" /><br /><br />
+  <img src="assets/module-02.svg" width="600" alt="Módulo PROGRAMMING_02" /><br />
+  <img src="https://skillicons.dev/icons?i=js,python&theme=dark" alt="JavaScript e Python" /><br /><br />
+  <img src="assets/module-03.svg" width="600" alt="Módulo DATABASE_03" /><br />
+  <img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="MySQL" /><br /><br />
+  <img src="assets/module-04.svg" width="600" alt="Módulo ENVIRONMENT_04" /><br />
+  <img src="https://skillicons.dev/icons?i=github,vscode&theme=dark" alt="GitHub e VS Code" /><br /><br />
 </div>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:8B5CF6,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 6. ACTIVE PROCESS -->
-<h2 align="center"><code>[ ACTIVE PROCESS ]</code></h2>
+<p align="center"><img src="assets/title-active-process.svg" width="600" alt="ACTIVE PROCESS" /></p>
 
-<div align="center">
+<p align="center"><img src="assets/active-process.svg" width="600" alt="Processos ativos: ADS, projetos, Alura, frontend/backend/banco de dados, soft skills e busca pela primeira oportunidade" /></p>
 
-```text
-01 // ADS @ UNA BOM DESPACHO (3º período)
-02 // CONSTRUINDO PROJETOS PRÁTICOS
-03 // FORMAÇÕES NA ALURA
-04 // FRONTEND + BACKEND + BANCO DE DADOS
-05 // DESENVOLVENDO SOFT SKILLS
-06 // BUSCANDO A PRIMEIRA OPORTUNIDADE EM TECH
-```
-
-</div>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:0EA5E9,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 7. GITHUB TELEMETRY -->
 <!-- ✏️ EDITE: se o seu username não for "fabio-tech-dev", troque nas URLs abaixo -->
-<h2 align="center"><code>[ GITHUB TELEMETRY ]</code></h2>
+<p align="center"><img src="assets/title-github-telemetry.svg" width="600" alt="GITHUB TELEMETRY" /></p>
 
-<p align="center">
-  <code>&gt; fetching github telemetry...</code><br />
-  <code>&gt; repository activity detected</code><br />
-  <code>&gt; contribution stream online</code>
-</p>
+<p align="center"><img src="assets/telemetry-log.svg" width="600" alt="fetching github telemetry, repository activity detected, contribution stream online" /></p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=fabio-tech-dev&show_icons=true&hide_border=true&bg_color=050810&title_color=00BFFF&icon_color=00FFFF&text_color=D5E1F2&ring_color=0EA5E9&include_all_commits=true&rank_icon=github&locale=pt-br&custom_title=DEV%20STATS" height="165" alt="Estatísticas do GitHub" />
@@ -136,66 +79,88 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=fabio-tech-dev&theme=dark&hide_border=true&background=050810&ring=00BFFF&fire=8B5CF6&currStreakNum=FFFFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&sideLabels=00BFFF&dates=7C8BA3&locale=pt_BR" alt="Streak de contribuições" />
+  <img src="https://streak-stats.demolab.com/?user=fabio-tech-dev&theme=dark&hide_border=true&background=050810&ring=00BFFF&fire=00BFFF&currStreakNum=FFFFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&sideLabels=00BFFF&dates=7C8BA3&locale=pt_BR" alt="Streak de contribuições" />
 </p>
 
 <!-- 8. NETWORK ACTIVITY -->
-<h3 align="center"><code>[ NETWORK ACTIVITY // CONTRIBUTION SIGNAL ]</code></h3>
+<p align="center"><img src="assets/title-network-activity.svg" width="600" alt="NETWORK ACTIVITY // CONTRIBUTION SIGNAL" /></p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabio-tech-dev&bg_color=050810&color=00BFFF&line=00FFFF&point=00BFFF&area=true&area_color=0EA5E9&hide_border=true&title_color=00FFFF&custom_title=NETWORK%20ACTIVITY%20%2F%2F%20CONTRIBUTION%20SIGNAL" width="100%" alt="Gráfico de atividade de contribuições" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabio-tech-dev&bg_color=050810&color=00BFFF&line=00FFFF&point=00BFFF&area=true&area_color=0EA5E9&hide_border=true&title_color=00FFFF&custom_title=CONTRIBUTION%20SIGNAL" width="100%" alt="Gráfico de atividade de contribuições" />
 </p>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:8B5CF6,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 9. PROJECT DATABASE -->
-<!--
-  ✏️ EDITE AQUI: para cada módulo troque
-     - PROJECT_NAME_X     → nome do projeto
-     - STACK              → ex.: HTML // CSS // JS
-     - STATUS             → ex.: DEPLOYED / BUILDING
-     - links do repositório e da demo
--->
-<h2 align="center"><code>[ PROJECT DATABASE ]</code></h2>
+<p align="center"><img src="assets/title-project-database.svg" width="600" alt="PROJECT DATABASE" /></p>
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%">
-      <code>PROJECT // 001</code><br />
-      <b>PROJECT_NAME_01</b><br /><br />
-      <sub><code>STATUS</code></sub><br /><code>[ EDITAR ]</code><br />
-      <sub><code>STACK</code></sub><br /><code>[ EDITAR ]</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_01"><code>REPOSITORY</code></a> &middot;
-      <a href="https://LINK_DA_DEMO_1"><code>DEMO</code></a>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <code>PROJECT // 002</code><br />
-      <b>PROJECT_NAME_02</b><br /><br />
-      <sub><code>STATUS</code></sub><br /><code>[ EDITAR ]</code><br />
-      <sub><code>STACK</code></sub><br /><code>[ EDITAR ]</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_02"><code>REPOSITORY</code></a> &middot;
-      <a href="https://LINK_DA_DEMO_2"><code>DEMO</code></a>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <code>PROJECT // 003</code><br />
-      <b>PROJECT_NAME_03</b><br /><br />
-      <sub><code>STATUS</code></sub><br /><code>[ EDITAR ]</code><br />
-      <sub><code>STACK</code></sub><br /><code>[ EDITAR ]</code><br /><br />
-      <a href="https://github.com/fabio-tech-dev/PROJECT_NAME_03"><code>REPOSITORY</code></a> &middot;
-      <a href="https://LINK_DA_DEMO_3"><code>DEMO</code></a>
-    </td>
-  </tr>
-</table>
+  <table>
+    <tr>
+      <td align="center" valign="top" width="33%">
+        <b>AssetPulse</b><br />
+        <sub>SaaS multi-tenant para gestão de inventário de TI com assistente de IA.</sub><br /><br />
+        <code>Node.js • Express • MySQL • Gemini AI</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/AssetPulse">REPOSITORY</a><br />
+        <a href="https://asset-pulse-npk9.vercel.app/login.html">LINK</a>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <b>Portfólio Profissional</b><br />
+        <sub>Portfólio de desenvolvimento, competências e projetos.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/Portifolio-Fabio">REPOSITORY</a><br />
+        <a href="https://portifolio-fabio-six.vercel.app">LINK</a>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <b>Smash Fire</b><br />
+        <sub>Cardápio digital responsivo para hamburgueria.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/Smash-Fire">REPOSITORY</a><br />
+        <a href="https://smash-fire.vercel.app">LINK</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="33%">
+        <b>Barbearia 014</b><br />
+        <sub>Landing page para barbearia com serviços e equipe.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/Barbearia-014">REPOSITORY</a><br />
+        <a href="https://barbearia014.vercel.app">LINK</a>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <b>Filipe Cell</b><br />
+        <sub>Landing page para loja de celulares.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/FilipeCel">REPOSITORY</a><br />
+        <a href="https://filipecell-celulares.vercel.app">LINK</a>
+      </td>
+      <td align="center" valign="top" width="33%">
+        <b>Academia Corpo em Movimento</b><br />
+        <sub>Landing page responsiva para academia fitness.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento">REPOSITORY</a><br />
+        <a href="https://academia-corpo-e-movimento.vercel.app">LINK</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="33%">
+        <b>Oreia Tech</b><br />
+        <sub>Site oficial para apresentar serviços de tecnologia.</sub><br /><br />
+        <code>HTML • CSS • JavaScript</code><br /><br />
+        <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL">REPOSITORY</a><br />
+        <a href="https://oreiatechsite.vercel.app">LINK</a>
+      </td>
+      <td width="33%"></td>
+      <td width="33%"></td>
+    </tr>
+  </table>
 </div>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:0EA5E9,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 10. NEURAL CONTRIBUTION MATRIX (gerado pelo workflow .github/workflows/snake.yml) -->
 <!-- ✏️ EDITE: troque "fabio-tech-dev/fabio-tech-dev" se o seu username for outro -->
-<h2 align="center"><code>[ NEURAL CONTRIBUTION MATRIX ]</code></h2>
-
-<p align="center"><sub><code>GITHUB ACTIVITY // LIVE DATA STREAM</code></sub></p>
+<p align="center"><img src="assets/title-contribution-matrix.svg" width="600" alt="NEURAL CONTRIBUTION MATRIX" /></p>
 
 <p align="center">
   <picture>
@@ -205,10 +170,10 @@
   </picture>
 </p>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,50:8B5CF6,100:030712" width="100%" alt="" /></p>
+<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 11. CONTATO -->
-<h2 align="center"><code>[ COMMUNICATION CHANNEL ]</code></h2>
+<p align="center"><img src="assets/title-communication-channel.svg" width="600" alt="COMMUNICATION CHANNEL" /></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/f%C3%A1bio-matheus-b01736279">
@@ -219,9 +184,7 @@
   </a>
 </p>
 
-<p align="center">
-  <code>OPEN FOR //</code> <code>INTERNSHIP</code> &middot; <code>JUNIOR OPPORTUNITIES</code> &middot; <code>TECH CONNECTIONS</code>
-</p>
+<p align="center"><img src="assets/open-for.svg" width="600" alt="Aberto a: estágio, vagas júnior e conexões em tecnologia" /></p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=fabio-tech-dev&label=ACCESS%20COUNTER&color=0EA5E9&style=flat-square&labelColor=050810" alt="Contador de acessos ao perfil" />
