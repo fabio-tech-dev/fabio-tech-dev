@@ -5,7 +5,7 @@
   ║  ✏️  O QUE EDITAR (procure por "EDITE" neste arquivo):          ║
   ║   1. Username: usei "fabio-tech-dev". Se o seu for outro,      ║
   ║      substitua TODAS as ocorrências (Ctrl+H / Ctrl+F).         ║
-  ║   2. Project Database: atualize os projetos e links.           ║
+  ║   2. Project Database: troque os PROJECT_NAME_X e links.       ║
   ║                                                                ║
   ║  O repositório precisa se chamar igual ao seu username         ║
   ║  (ex.: fabio-tech-dev/fabio-tech-dev) e ser público.           ║
@@ -85,76 +85,46 @@
 <!-- 8. NETWORK ACTIVITY -->
 <p align="center"><img src="assets/title-network-activity.svg" width="600" alt="NETWORK ACTIVITY // CONTRIBUTION SIGNAL" /></p>
 
+<!-- gerado pelo workflow .github/workflows/activity-signal.yml (branch activity-output) -->
+<!-- ✏️ EDITE: troque "fabio-tech-dev/fabio-tech-dev" se o seu username for outro -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabio-tech-dev&bg_color=050810&color=00BFFF&line=00FFFF&point=00BFFF&area=true&area_color=0EA5E9&hide_border=true&title_color=00FFFF&custom_title=CONTRIBUTION%20SIGNAL" width="100%" alt="Gráfico de atividade de contribuições" />
+  <img src="https://raw.githubusercontent.com/fabio-tech-dev/fabio-tech-dev/activity-output/activity-signal.svg" width="100%" alt="Gráfico de atividade: contribuições semanais dos últimos 12 meses" />
 </p>
 
 <p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
 <!-- 9. PROJECT DATABASE -->
+<!--
+  ✏️ EDITE OS LINKS: cada card abre o repositório e o botão LINK abre o site.
+     Os cards abaixo apontam para os projetos publicados.
+-->
 <p align="center"><img src="assets/title-project-database.svg" width="600" alt="PROJECT DATABASE" /></p>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" valign="top" width="33%">
-        <b>AssetPulse</b><br />
-        <sub>SaaS multi-tenant para gestão de inventário de TI com assistente de IA.</sub><br /><br />
-        <code>Node.js • Express • MySQL • Gemini AI</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/AssetPulse">REPOSITORY</a><br />
-        <a href="https://asset-pulse-npk9.vercel.app/login.html">LINK</a>
-      </td>
-      <td align="center" valign="top" width="33%">
-        <b>Portfólio Profissional</b><br />
-        <sub>Portfólio de desenvolvimento, competências e projetos.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/Portifolio-Fabio">REPOSITORY</a><br />
-        <a href="https://portifolio-fabio-six.vercel.app">LINK</a>
-      </td>
-      <td align="center" valign="top" width="33%">
-        <b>Smash Fire</b><br />
-        <sub>Cardápio digital responsivo para hamburgueria.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/Smash-Fire">REPOSITORY</a><br />
-        <a href="https://smash-fire.vercel.app">LINK</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="33%">
-        <b>Barbearia 014</b><br />
-        <sub>Landing page para barbearia com serviços e equipe.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/Barbearia-014">REPOSITORY</a><br />
-        <a href="https://barbearia014.vercel.app">LINK</a>
-      </td>
-      <td align="center" valign="top" width="33%">
-        <b>Filipe Cell</b><br />
-        <sub>Landing page para loja de celulares.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/FilipeCel">REPOSITORY</a><br />
-        <a href="https://filipecell-celulares.vercel.app">LINK</a>
-      </td>
-      <td align="center" valign="top" width="33%">
-        <b>Academia Corpo em Movimento</b><br />
-        <sub>Landing page responsiva para academia fitness.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento">REPOSITORY</a><br />
-        <a href="https://academia-corpo-e-movimento.vercel.app">LINK</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="33%">
-        <b>Oreia Tech</b><br />
-        <sub>Site oficial para apresentar serviços de tecnologia.</sub><br /><br />
-        <code>HTML • CSS • JavaScript</code><br /><br />
-        <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL">REPOSITORY</a><br />
-        <a href="https://oreiatechsite.vercel.app">LINK</a>
-      </td>
-      <td width="33%"></td>
-      <td width="33%"></td>
-    </tr>
-  </table>
-</div>
+<!-- DESTAQUE -->
+<p align="center">
+  <a href="https://github.com/fabio-tech-dev/Portifolio-Fabio"><img src="assets/project-featured.svg" width="100%" alt="Projeto 001 em destaque: Portfólio Profissional — HTML, CSS e JavaScript" /></a><br />
+  <a href="https://portifolio-fabio-six.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link do Portfólio Profissional" /></a>
+</p>
+
+<!-- LINHA 1 -->
+<p align="center">
+  <a href="https://github.com/fabio-tech-dev/AssetPulse"><img src="assets/project-card-01.svg" width="31%" alt="AssetPulse — SaaS multi-tenant de inventário de TI com assistente de IA" /></a>
+  <a href="https://github.com/fabio-tech-dev/Smash-Fire"><img src="assets/project-card-02.svg" width="31%" alt="Smash Fire — cardápio digital para hamburgueria" /></a>
+  <a href="https://github.com/fabio-tech-dev/Barbearia-014"><img src="assets/project-card-03.svg" width="31%" alt="Barbearia 014 — landing page para barbearia" /></a><br />
+  <a href="https://asset-pulse-npk9.vercel.app/login.html"><img src="assets/btn-demo.svg" width="31%" alt="Link do AssetPulse" /></a>
+  <a href="https://smash-fire.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link do Smash Fire" /></a>
+  <a href="https://barbearia014.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Barbearia 014" /></a>
+</p>
+
+<!-- LINHA 2 -->
+<p align="center">
+  <a href="https://github.com/fabio-tech-dev/FilipeCel"><img src="assets/project-card-04.svg" width="31%" alt="Filipe Cell — landing page para loja de celulares" /></a>
+  <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento"><img src="assets/project-card-05.svg" width="31%" alt="Academia Corpo em Movimento — landing page para academia" /></a>
+  <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL"><img src="assets/project-card-06.svg" width="31%" alt="Oreia Tech — site de serviços de tecnologia" /></a><br />
+  <a href="https://filipecell-celulares.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Filipe Cell" /></a>
+  <a href="https://academia-corpo-e-movimento.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Academia Corpo em Movimento" /></a>
+  <a href="https://oreiatechsite.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Oreia Tech" /></a>
+</p>
 
 <p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
