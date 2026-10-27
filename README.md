@@ -172,6 +172,7 @@
       <b>Portfólio Profissional</b><br />
       <sub>Meu portfólio de desenvolvimento e projetos.</sub><br /><br />
       <code>HTML • CSS • JavaScript</code><br /><br />
+      <a href="https://github.com/fabio-tech-dev/Portifolio-Fabio">📂 Repositório</a><br />
       <a href="https://portifolio-fabio-six.vercel.app">🔗 Link</a>
     </td>
     <td width="33%"></td>
