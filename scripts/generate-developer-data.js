@@ -87,7 +87,7 @@ text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberat
 <g clip-path="url(#clip)">
 <rect width="${W}" height="${H}" fill="url(#grid)"/>
 <rect x="1" y="1" width="${W - 2}" height="38" fill="#07101F"/><line x1="1" y1="39" x2="${W - 1}" y2="39" stroke="#0EA5E9" stroke-opacity=".4"/>
-<text x="20" y="25" class="c" style="font-weight:600;letter-spacing:1.5px;font-size:14px">DEV // GITHUB DATA</text>
+
 <circle class="dot" cx="${W - 132}" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="${W - 122}" y="25" class="g" style="letter-spacing:1px;font-size:12px">SOURCE : GITHUB</text>
 <text x="26" y="64" class="n" style="font-size:12px;letter-spacing:3px">STATS</text><line x1="76" y1="60" x2="276" y2="60" stroke="#0EA5E9" stroke-opacity=".4"/>
 <text x="${BX}" y="64" class="n" style="font-size:12px;letter-spacing:3px">LANGUAGES</text><line x1="${BX + 100}" y1="60" x2="${BX + BW}" y2="60" stroke="#0EA5E9" stroke-opacity=".4"/>
