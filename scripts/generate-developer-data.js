@@ -8,7 +8,7 @@
  */
 const fs = require('fs');
 const path = require('path');
-const OUT = path.join('dist', 'developer-data.svg');
+const OUT = path.join('dist', 'developer-metrics-v2.svg');
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 async function fetchData(login, token) {
