@@ -17,8 +17,6 @@
 <!-- 1. CABEÇALHO -->
 <img src="https://capsule-render.vercel.app/api?type=rect&height=210&color=0:030712,50:07101F,100:030712&text=F%C3%81BIO%20MATHEUS&fontColor=00BFFF&fontSize=58&fontAlignY=42&desc=DESENVOLVEDOR%20FULL%20STACK%20%2F%2F%20EM%20FORMA%C3%87%C3%83O&descColor=7C8BA3&descSize=18&descAlignY=64&stroke=0EA5E9&strokeWidth=1&animation=fadeIn" width="100%" alt="Fábio Matheus — Desenvolvedor Full Stack em formação" />
 
-<sub>ADS &bull; UNA BOM DESPACHO</sub>
-
 <!-- 2. INICIALIZAÇÃO DO PERFIL -->
 <a href="https://github.com/fabio-tech-dev">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3200&pause=1000&color=00BFFF&center=true&vCenter=true&repeat=true&width=600&height=40&lines=%3E+inicializando+perfil+de+desenvolvedor...;%3E+usu%C3%A1rio%3A+F%C3%A1bio+Matheus;%3E+cargo%3A+Desenvolvedor+Full+Stack+em+Forma%C3%A7%C3%A3o;%3E+stack%3A+JavaScript+%2F%2F+Python+%2F%2F+MySQL;%3E+status%3A+aprendendo+%26%26+desenvolvendo;%3E+objetivo%3A+primeira+oportunidade+em+tecnologia;%3E+sistema+pronto_" alt="Sequência de inicialização do perfil" />
