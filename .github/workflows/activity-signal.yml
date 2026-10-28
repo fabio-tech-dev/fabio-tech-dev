@@ -8,6 +8,7 @@ on:
     branches: [main, master]
     paths:
       - "scripts/generate-activity-graph.js"
+      - "scripts/generate-developer-data.js"
       - ".github/workflows/activity-signal.yml"
 
 permissions:
@@ -25,11 +26,17 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate activity graph (dados reais do GitHub)
+      - name: Generate activity graph (real GitHub data)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_OWNER: ${{ github.repository_owner }}
         run: node scripts/generate-activity-graph.js
+
+      - name: Generate developer data panel (stats + languages)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+        run: node scripts/generate-developer-data.js
 
       - name: Publish to activity-output branch
         env:
@@ -39,6 +46,6 @@ jobs:
           git init -b activity-output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add activity-signal.svg
+          git add activity-signal.svg developer-data.svg
           git commit -m "chore: update activity signal"
           git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" activity-output
