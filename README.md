@@ -28,23 +28,14 @@
 
 <br />
 
-<!-- 3. TERMINAL -->
-<p align="center"><img src="assets/title-system-profile.svg" width="600" alt="PERFIL DO DESENVOLVEDOR" /></p>
-
-<div align="center">
-  <img src="assets/terminal.svg" width="600" alt="Terminal do FM.DEV: comandos whoami, education, stack, mission e status do Fábio Matheus" />
-</div>
-
-<br />
-
-<!-- 4. STATUS ATUAL -->
+<!-- 3. STATUS ATUAL -->
 <p align="center"><img src="assets/title-system-status.svg" width="600" alt="STATUS ATUAL" /></p>
 
 <p align="center"><img src="assets/system-status.svg" width="600" alt="Painel de status: usuário, curso, semestre, foco, aprendizado, missão e andamento dos módulos" /></p>
 
 <p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
-<!-- 5. TECNOLOGIAS -->
+<!-- 4. TECNOLOGIAS -->
 <p align="center"><img src="assets/title-tech-stack.svg" width="600" alt="TECNOLOGIAS // MÓDULOS" /></p>
 
 <div align="center">
@@ -60,14 +51,7 @@
 
 <p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
-<!-- 6. EM ANDAMENTO -->
-<p align="center"><img src="assets/title-active-process.svg" width="600" alt="EM ANDAMENTO" /></p>
-
-<p align="center"><img src="assets/active-process.svg" width="600" alt="Atividades atuais: ADS, projetos, Alura, front-end, back-end, banco de dados, habilidades interpessoais e busca pela primeira oportunidade" /></p>
-
-<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
-
-<!-- 7. ATIVIDADE NO GITHUB -->
+<!-- 5. ATIVIDADE NO GITHUB -->
 <!-- ✏️ EDITE: se o seu nome de usuário não for "fabio-tech-dev", troque nas URLs abaixo -->
 <p align="center"><img src="assets/title-github-telemetry.svg" width="600" alt="ATIVIDADE NO GITHUB" /></p>
 
@@ -82,7 +66,7 @@
   <img src="https://streak-stats.demolab.com/?user=fabio-tech-dev&theme=dark&hide_border=true&background=050810&ring=00BFFF&fire=00BFFF&currStreakNum=FFFFFF&currStreakLabel=00FFFF&sideNums=FFFFFF&sideLabels=00BFFF&dates=7C8BA3&locale=pt_BR" alt="Sequência de contribuições" />
 </p>
 
-<!-- 8. CONTRIBUIÇÕES -->
+<!-- 6. CONTRIBUIÇÕES -->
 <p align="center"><img src="assets/title-network-activity.svg" width="600" alt="ATIVIDADE DE CONTRIBUIÇÃO" /></p>
 
 <!-- gerado pelo workflow .github/workflows/activity-signal.yml (branch activity-output) -->
@@ -93,56 +77,7 @@
 
 <p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
 
-<!-- 9. PROJETOS -->
-<!--
-  ✏️ EDITE OS LINKS: cada card abre o repositório e o botão LINK abre o site.
-     Os cards abaixo apontam para os projetos publicados.
--->
-<p align="center"><img src="assets/title-project-database.svg" width="600" alt="PROJETOS EM DESTAQUE" /></p>
-
-<!-- PROJETO EM DESTAQUE -->
-<p align="center">
-  <a href="https://github.com/fabio-tech-dev/Portifolio-Fabio"><img src="assets/project-featured.svg" width="100%" alt="Projeto 001 em destaque: Portfólio Profissional — HTML, CSS e JavaScript" /></a><br />
-  <a href="https://portifolio-fabio-six.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link do Portfólio Profissional" /></a>
-</p>
-
-<!-- PROJETOS -->
-<p align="center">
-  <a href="https://github.com/fabio-tech-dev/AssetPulse"><img src="assets/project-card-01.svg" width="31%" alt="AssetPulse — sistema SaaS para gestão de inventário de TI com assistente de IA" /></a>
-  <a href="https://github.com/fabio-tech-dev/Smash-Fire"><img src="assets/project-card-02.svg" width="31%" alt="Smash Fire — cardápio digital para hamburgueria" /></a>
-  <a href="https://github.com/fabio-tech-dev/Barbearia-014"><img src="assets/project-card-03.svg" width="31%" alt="Barbearia 014 — página de apresentação para barbearia" /></a><br />
-  <a href="https://asset-pulse-npk9.vercel.app/login.html"><img src="assets/btn-demo.svg" width="31%" alt="Link do AssetPulse" /></a>
-  <a href="https://smash-fire.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link do Smash Fire" /></a>
-  <a href="https://barbearia014.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Barbearia 014" /></a>
-</p>
-
-<!-- MAIS PROJETOS -->
-<p align="center">
-  <a href="https://github.com/fabio-tech-dev/FilipeCel"><img src="assets/project-card-04.svg" width="31%" alt="Filipe Cell — página de apresentação para loja de celulares" /></a>
-  <a href="https://github.com/fabio-tech-dev/Academia-Corpo-e-Movimento"><img src="assets/project-card-05.svg" width="31%" alt="Academia Corpo em Movimento — página de apresentação para academia" /></a>
-  <a href="https://github.com/fabio-tech-dev/OREIA-TECH-SITE-OFICIAL"><img src="assets/project-card-06.svg" width="31%" alt="Oreia Tech — site de serviços de tecnologia" /></a><br />
-  <a href="https://filipecell-celulares.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Filipe Cell" /></a>
-  <a href="https://academia-corpo-e-movimento.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Academia Corpo em Movimento" /></a>
-  <a href="https://oreiatechsite.vercel.app"><img src="assets/btn-demo.svg" width="31%" alt="Link da Oreia Tech" /></a>
-</p>
-
-<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
-
-<!-- 10. MATRIZ DE CONTRIBUIÇÕES (gerada pelo workflow .github/workflows/snake.yml) -->
-<!-- ✏️ EDITE: troque "fabio-tech-dev/fabio-tech-dev" se o seu username for outro -->
-<p align="center"><img src="assets/title-contribution-matrix.svg" width="600" alt="MATRIZ DE CONTRIBUIÇÕES" /></p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fabio-tech-dev/fabio-tech-dev/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fabio-tech-dev/fabio-tech-dev/output/github-snake.svg" />
-    <img alt="Matriz de contribuições com fluxo de dados percorrendo a atividade do GitHub" src="https://raw.githubusercontent.com/fabio-tech-dev/fabio-tech-dev/output/github-snake-dark.svg" width="100%" />
-  </picture>
-</p>
-
-<p align="center"><img src="assets/tech-divider.svg" width="600" alt="" /></p>
-
-<!-- 11. CONTATO -->
+<!-- 7. CONTATO -->
 <p align="center"><img src="assets/title-communication-channel.svg" width="600" alt="CANAIS DE CONTATO" /></p>
 
 <p align="center">
@@ -160,5 +95,5 @@
   <img src="https://komarev.com/ghpvc/?username=fabio-tech-dev&label=ACESSOS&color=0EA5E9&style=flat-square&labelColor=050810" alt="Contador de acessos ao perfil" />
 </p>
 
-<!-- 12. RODAPÉ -->
+<!-- 8. RODAPÉ -->
 <img src="https://capsule-render.vercel.app/api?type=rect&section=footer&height=90&color=0:030712,50:07101F,100:030712&text=SESS%C3%83O%20ATIVA%20%2F%2F%20CODIFICAR%20%E2%80%A2%20APRENDER%20%E2%80%A2%20DESENVOLVER%20%E2%80%A2%20REPETIR&fontColor=00BFFF&fontSize=16&fontAlignY=50&stroke=0EA5E9&strokeWidth=1" width="100%" alt="Sessão ativa // Codificar, aprender, desenvolver e repetir" />
