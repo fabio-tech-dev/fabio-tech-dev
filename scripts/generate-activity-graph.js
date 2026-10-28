@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 /**
- * Gera dist/activity-signal.svg: gráfico "ATIVIDADE NO GITHUB // CONTRIBUTION SIGNAL"
- * com os dados REAIS de contribuições do GitHub (últimos 12 meses, soma semanal).
+ * Generates dist/activity-signal.svg: a "GITHUB ACTIVITY // CONTRIBUTION SIGNAL" chart
+ * using real GitHub contribution data (weekly totals for the last 12 months).
  *
- * Uso (GitHub Actions):  GITHUB_TOKEN=... GITHUB_OWNER=usuario node scripts/generate-activity-graph.js
- * Teste local sem rede:  node scripts/generate-activity-graph.js --mock
+ * Usage (GitHub Actions): GITHUB_TOKEN=... GITHUB_OWNER=user node scripts/generate-activity-graph.js
+ * Offline local test:     node scripts/generate-activity-graph.js --mock
  */
 const fs = require('fs');
 const path = require('path');
 
 const OUT = path.join('dist', 'activity-signal.svg');
-const MONTHS = ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'];
+const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
 async function fetchWeeks(login, token) {
   const query = `query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}`;
@@ -19,9 +19,9 @@ async function fetchWeeks(login, token) {
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', 'User-Agent': 'activity-signal' },
     body: JSON.stringify({ query, variables: { login } }),
   });
-  if (!res.ok) throw new Error(`GitHub API respondeu ${res.status}`);
+  if (!res.ok) throw new Error(`GitHub API responded with ${res.status}`);
   const json = await res.json();
-  if (json.errors || !json.data || !json.data.user) throw new Error('Erro na consulta: ' + JSON.stringify(json.errors || json));
+  if (json.errors || !json.data || !json.data.user) throw new Error('GitHub query failed: ' + JSON.stringify(json.errors || json));
   return json.data.user.contributionsCollection.contributionCalendar;
 }
 
@@ -55,7 +55,7 @@ function build(cal) {
   const area = `${line}L${R} ${B}L${L} ${B}Z`;
   const peaks = pts.map((p, i) => ({ ...p, i })).filter((p, k, a) => p.v > 0 && (k % 4 === 0 || p.v === max));
 
-  // rótulos de mês (a cada 2 meses, para caber no celular)
+  // Show every other month label to fit on small screens.
   let lastMonth = -1, mi = 0; const labels = [];
   pts.forEach((p, i) => {
     if (!p.date) return;
@@ -67,8 +67,8 @@ function build(cal) {
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-labelledby="t d">
-<title id="t">Atividade no GitHub — contribuições</title>
-<desc id="d">Gráfico de contribuições semanais do GitHub nos últimos 12 meses. Total: ${cal.totalContributions}.</desc>
+<title id="t">GitHub Activity — contributions</title>
+<desc id="d">Weekly GitHub contributions over the last 12 months. Total: ${cal.totalContributions}.</desc>
 <defs>
 <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset=".5" stop-color="#00FFFF"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient>
 <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0EA5E9" stop-opacity=".35"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></linearGradient>
@@ -88,10 +88,10 @@ text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberat
 <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="6" fill="#050810"/>
 <g clip-path="url(#clip)">
 <rect x="1" y="1" width="${W - 2}" height="38" fill="#07101F"/><line x1="1" y1="39" x2="${W - 1}" y2="39" stroke="#0EA5E9" stroke-opacity=".4"/>
-<text x="20" y="25" class="c" style="font-weight:600;letter-spacing:1.5px;font-size:14px">ATIVIDADE NO GITHUB</text>
-<circle class="dot" cx="${W - 150}" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="${W - 140}" y="25" class="g" style="letter-spacing:1px">FLUXO DE DADOS</text>
-<text x="20" y="58" class="k" style="font-size:11px;letter-spacing:1px">ORIGEM: GITHUB  //  SYS://CONTRIBUTION</text>
-<text x="${W - 20}" y="58" text-anchor="end" class="u" style="font-size:11px;letter-spacing:1px">TOTAL 12 MESES: ${cal.totalContributions}</text>
+<text x="20" y="25" class="c" style="font-weight:600;letter-spacing:1.5px;font-size:14px">GITHUB ACTIVITY</text>
+<circle class="dot" cx="${W - 150}" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="${W - 140}" y="25" class="g" style="letter-spacing:1px">DATA STREAM</text>
+<text x="20" y="58" class="k" style="font-size:11px;letter-spacing:1px">SOURCE: GITHUB  //  SYS://CONTRIBUTION</text>
+<text x="${W - 20}" y="58" text-anchor="end" class="u" style="font-size:11px;letter-spacing:1px">TOTAL 12 MONTHS: ${cal.totalContributions}</text>
 ${grid}
 <text x="${L - 8}" y="${B + 4}" text-anchor="end" class="k" style="font-size:10px">0</text>
 <text x="${L - 8}" y="${T + 4}" text-anchor="end" class="k" style="font-size:10px">${max}</text>
@@ -115,10 +115,10 @@ ${labels.join('')}
   else {
     const token = process.env.GITHUB_TOKEN;
     const login = process.env.GITHUB_OWNER || process.env.GITHUB_REPOSITORY_OWNER;
-    if (!token || !login) { console.error('Defina GITHUB_TOKEN e GITHUB_OWNER.'); process.exit(1); }
+    if (!token || !login) { console.error('Set GITHUB_TOKEN and GITHUB_OWNER.'); process.exit(1); }
     cal = await fetchWeeks(login, token);
   }
   fs.mkdirSync('dist', { recursive: true });
   fs.writeFileSync(OUT, build(cal));
-  console.log(`OK -> ${OUT} (total 12m: ${cal.totalContributions})`);
+  console.log(`OK -> ${OUT} (12-month total: ${cal.totalContributions})`);
 })().catch(e => { console.error(e.message); process.exit(1); });
