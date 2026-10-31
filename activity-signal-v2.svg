@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250" role="img" aria-labelledby="t d">
+<title id="t">GitHub contributions</title>
+<desc id="d">Weekly GitHub contributions over the last 12 months. Total: 93.</desc>
+<defs>
+<linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset=".5" stop-color="#00FFFF"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient>
+<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0EA5E9" stop-opacity=".35"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00FFFF" stop-opacity="0"/><stop offset=".5" stop-color="#00FFFF" stop-opacity=".16"/><stop offset="1" stop-color="#00FFFF" stop-opacity="0"/></linearGradient>
+<pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00BFFF" opacity=".045"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="clip"><rect x="1" y="1" width="598" height="248" rx="6"/></clipPath>
+<style>
+text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:13px}
+.k{fill:#7C8BA3}.c{fill:#FFFFFF}.u{fill:#00FFFF}.g{fill:#00FF9C}
+.dot{animation:pulse 2.5s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3s ease-out forwards}@keyframes draw{to{stroke-dashoffset:0}}
+.sc{animation:sweep 9s linear infinite}@keyframes sweep{from{transform:translateX(-90px)}to{transform:translateX(600px)}}
+@media (prefers-reduced-motion: reduce){.dot{animation:none}.draw{animation:none;stroke-dashoffset:0}.sc{display:none}}
+</style>
+</defs>
+<rect x="1" y="1" width="598" height="248" rx="6" fill="#050810"/>
+<g clip-path="url(#clip)">
+<rect x="1" y="1" width="598" height="38" fill="#07101F"/><line x1="1" y1="39" x2="599" y2="39" stroke="#0EA5E9" stroke-opacity=".4"/>
+<circle class="dot" cx="450" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="460" y="25" class="g" style="letter-spacing:1px">DATA STREAM</text>
+<text x="20" y="58" class="k" style="font-size:11px;letter-spacing:1px">SOURCE: GITHUB  //  SYS://CONTRIBUTION</text>
+<text x="580" y="58" text-anchor="end" class="u" style="font-size:11px;letter-spacing:1px">TOTAL 12 MONTHS: 93</text>
+<line x1="44" y1="196.0" x2="572" y2="196.0" stroke="#0EA5E9" stroke-opacity="0.35"/><line x1="44" y1="164.5" x2="572" y2="164.5" stroke="#0EA5E9" stroke-opacity="0.08"/><line x1="44" y1="133.0" x2="572" y2="133.0" stroke="#0EA5E9" stroke-opacity="0.08"/><line x1="44" y1="101.5" x2="572" y2="101.5" stroke="#0EA5E9" stroke-opacity="0.08"/><line x1="44" y1="70.0" x2="572" y2="70.0" stroke="#0EA5E9" stroke-opacity="0.08"/>
+<text x="36" y="200" text-anchor="end" class="k" style="font-size:10px">0</text>
+<text x="36" y="74" text-anchor="end" class="k" style="font-size:10px">31</text>
+<path d="M44.0 196.0L54.2 196.0L64.3 196.0L74.5 196.0L84.6 196.0L94.8 196.0L104.9 196.0L115.1 196.0L125.2 196.0L135.4 196.0L145.5 196.0L155.7 196.0L165.8 196.0L176.0 196.0L186.2 196.0L196.3 196.0L206.5 196.0L216.6 196.0L226.8 196.0L236.9 196.0L247.1 196.0L257.2 196.0L267.4 196.0L277.5 196.0L287.7 196.0L297.8 196.0L308.0 196.0L318.2 196.0L328.3 196.0L338.5 196.0L348.6 196.0L358.8 196.0L368.9 196.0L379.1 196.0L389.2 167.5L399.4 106.6L409.5 196.0L419.7 196.0L429.8 196.0L440.0 196.0L450.2 196.0L460.3 196.0L470.5 196.0L480.6 155.4L490.8 196.0L500.9 196.0L511.1 196.0L521.2 196.0L531.4 191.9L541.5 175.7L551.7 131.0L561.8 191.9L572.0 70.0L572 196L44 196Z" fill="url(#ar)"/>
+<path d="M44.0 196.0L54.2 196.0L64.3 196.0L74.5 196.0L84.6 196.0L94.8 196.0L104.9 196.0L115.1 196.0L125.2 196.0L135.4 196.0L145.5 196.0L155.7 196.0L165.8 196.0L176.0 196.0L186.2 196.0L196.3 196.0L206.5 196.0L216.6 196.0L226.8 196.0L236.9 196.0L247.1 196.0L257.2 196.0L267.4 196.0L277.5 196.0L287.7 196.0L297.8 196.0L308.0 196.0L318.2 196.0L328.3 196.0L338.5 196.0L348.6 196.0L358.8 196.0L368.9 196.0L379.1 196.0L389.2 167.5L399.4 106.6L409.5 196.0L419.7 196.0L429.8 196.0L440.0 196.0L450.2 196.0L460.3 196.0L470.5 196.0L480.6 155.4L490.8 196.0L500.9 196.0L511.1 196.0L521.2 196.0L531.4 191.9L541.5 175.7L551.7 131.0L561.8 191.9L572.0 70.0" class="draw" fill="none" stroke="#00FFFF" stroke-width="1.8" stroke-linejoin="round" filter="url(#glow)"/>
+<circle cx="531.4" cy="191.9" r="2.6" fill="#00BFFF" stroke="#050810"/><circle cx="572.0" cy="70.0" r="2.6" fill="#00BFFF" stroke="#050810"/>
+<circle class="dot" cx="572.0" cy="70.0" r="4" fill="#FFFFFF" filter="url(#glow)"/>
+<text x="44.0" y="214" text-anchor="middle" class="k" style="font-size:10px">OCT</text><text x="104.9" y="214" text-anchor="middle" class="k" style="font-size:10px">DEC</text><text x="186.2" y="214" text-anchor="middle" class="k" style="font-size:10px">FEB</text><text x="277.5" y="214" text-anchor="middle" class="k" style="font-size:10px">APR</text><text x="368.9" y="214" text-anchor="middle" class="k" style="font-size:10px">JUN</text><text x="450.2" y="214" text-anchor="middle" class="k" style="font-size:10px">AUG</text><text x="541.5" y="214" text-anchor="middle" class="k" style="font-size:10px">OCT</text>
+<rect width="600" height="250" fill="url(#lines)"/>
+<rect class="sc" x="0" y="40" width="90" height="210" fill="url(#scan)"/>
+</g>
+<rect x="1" y="1" width="598" height="248" rx="6" fill="none" stroke="url(#bd)" stroke-opacity=".55"/>
+<g fill="none" stroke="#00FFFF" stroke-width="2" filter="url(#glow)"><path d="M1 16V1H16"/><path d="M584 1H599V16"/><path d="M1 234V249H16"/><path d="M584 249H599V234"/></g>
+</svg>

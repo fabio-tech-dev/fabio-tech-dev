@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 256" width="600" height="256" role="img" aria-labelledby="t d">
+<title id="t">Developer data — GitHub</title>
+<desc id="d">Public repositories: 8. Stars: 3. Commits in the last 12 months: 85. Languages: HTML, JavaScript, CSS.</desc>
+<defs>
+<linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset=".5" stop-color="#00FFFF"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00FFFF" stop-opacity="0"/><stop offset=".5" stop-color="#00FFFF" stop-opacity=".10"/><stop offset="1" stop-color="#00FFFF" stop-opacity="0"/></linearGradient>
+<pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00BFFF" opacity=".045"/></pattern>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#0EA5E9" stroke-opacity=".05"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="clip"><rect x="1" y="1" width="598" height="254" rx="6"/></clipPath>
+<style>
+text{font-family:'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:13px}
+.k{fill:#7C8BA3}.c{fill:#FFFFFF}.u{fill:#00FFFF}.o{fill:#D5E1F2}.g{fill:#00FF9C}.n{fill:#00BFFF}
+.l{opacity:0;animation:show .35s ease-out forwards}@keyframes show{to{opacity:1}}
+.dot{animation:pulse 2.5s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.sc{animation:sweep 9s linear infinite}@keyframes sweep{from{transform:translateY(-60px)}to{transform:translateY(256px)}}
+@media (prefers-reduced-motion: reduce){.l{opacity:1;animation:none}.dot{animation:none}.sc{display:none}}
+</style>
+</defs>
+<rect x="1" y="1" width="598" height="254" rx="6" fill="#050810"/>
+<g clip-path="url(#clip)">
+<rect width="600" height="256" fill="url(#grid)"/>
+<rect x="1" y="1" width="598" height="38" fill="#07101F"/><line x1="1" y1="39" x2="599" y2="39" stroke="#0EA5E9" stroke-opacity=".4"/>
+
+<circle class="dot" cx="468" cy="20" r="4" fill="#00FF9C" filter="url(#glow)"/><text x="478" y="25" class="g" style="letter-spacing:1px;font-size:12px">SOURCE : GITHUB</text>
+<text x="26" y="64" class="n" style="font-size:12px;letter-spacing:3px">STATS</text><line x1="76" y1="60" x2="276" y2="60" stroke="#0EA5E9" stroke-opacity=".4"/>
+<text x="330" y="64" class="n" style="font-size:12px;letter-spacing:3px">LANGUAGES</text><line x1="430" y1="60" x2="570" y2="60" stroke="#0EA5E9" stroke-opacity=".4"/>
+<line x1="303" y1="52" x2="303" y2="240" stroke="#0EA5E9" stroke-opacity=".25"/>
+<g class="l" style="animation-delay:0.30s"><text x="26" y="86" class="k" style="font-size:12px;letter-spacing:1px">PUBLIC REPOS</text><text x="276" y="86" text-anchor="end" class="c" style="font-size:18px;font-weight:700">8</text><line x1="26" y1="95" x2="276" y2="95" stroke="#0EA5E9" stroke-opacity=".18"/></g><g class="l" style="animation-delay:0.55s"><text x="26" y="116" class="k" style="font-size:12px;letter-spacing:1px">STARS RECEIVED</text><text x="276" y="116" text-anchor="end" class="c" style="font-size:18px;font-weight:700">3</text><line x1="26" y1="125" x2="276" y2="125" stroke="#0EA5E9" stroke-opacity=".18"/></g><g class="l" style="animation-delay:0.80s"><text x="26" y="146" class="k" style="font-size:12px;letter-spacing:1px">COMMITS // 12M</text><text x="276" y="146" text-anchor="end" class="c" style="font-size:18px;font-weight:700">85</text><line x1="26" y1="155" x2="276" y2="155" stroke="#0EA5E9" stroke-opacity=".18"/></g><g class="l" style="animation-delay:1.05s"><text x="26" y="176" class="k" style="font-size:12px;letter-spacing:1px">PULL REQUESTS // 12M</text><text x="276" y="176" text-anchor="end" class="c" style="font-size:18px;font-weight:700">0</text><line x1="26" y1="185" x2="276" y2="185" stroke="#0EA5E9" stroke-opacity=".18"/></g><g class="l" style="animation-delay:1.30s"><text x="26" y="206" class="k" style="font-size:12px;letter-spacing:1px">ISSUES // 12M</text><text x="276" y="206" text-anchor="end" class="c" style="font-size:18px;font-weight:700">0</text><line x1="26" y1="215" x2="276" y2="215" stroke="#0EA5E9" stroke-opacity=".18"/></g><g class="l" style="animation-delay:0.40s"><text x="330" y="86" class="o" style="font-size:13px">HTML</text><text x="570" y="86" text-anchor="end" class="u" style="font-size:12px">36.9%</text><rect x="330" y="93" width="240" height="5" rx="2" fill="#0EA5E9" fill-opacity=".12"/><rect x="330" y="93" width="88.6" height="5" rx="2" fill="#00FFFF" filter="url(#glow)"/></g><g class="l" style="animation-delay:0.65s"><text x="330" y="122" class="o" style="font-size:13px">JavaScript</text><text x="570" y="122" text-anchor="end" class="u" style="font-size:12px">36.2%</text><rect x="330" y="129" width="240" height="5" rx="2" fill="#0EA5E9" fill-opacity=".12"/><rect x="330" y="129" width="87.0" height="5" rx="2" fill="#00BFFF" filter="url(#glow)"/></g><g class="l" style="animation-delay:0.90s"><text x="330" y="158" class="o" style="font-size:13px">CSS</text><text x="570" y="158" text-anchor="end" class="u" style="font-size:12px">26.8%</text><rect x="330" y="165" width="240" height="5" rx="2" fill="#0EA5E9" fill-opacity=".12"/><rect x="330" y="165" width="64.4" height="5" rx="2" fill="#0EA5E9" filter="url(#glow)"/></g>
+<rect width="600" height="256" fill="url(#lines)"/><rect class="sc" x="1" y="0" width="598" height="60" fill="url(#scan)"/>
+</g>
+<rect x="1" y="1" width="598" height="254" rx="6" fill="none" stroke="url(#bd)" stroke-opacity=".55"/>
+<g fill="none" stroke="#00FFFF" stroke-width="2" filter="url(#glow)"><path d="M1 16V1H16"/><path d="M584 1H599V16"/><path d="M1 240V255H16"/><path d="M584 255H599V240"/></g>
+</svg>
